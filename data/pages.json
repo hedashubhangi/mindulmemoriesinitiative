@@ -1,0 +1,78 @@
+{
+  "home": {
+    "slug": "home",
+    "title": "Mindful Memories Initiative",
+    "description": "Preserving dignity and joy for dementia patients through memory books, engagement kits, and community support.",
+    "heroTitle": "Preserving Precious Memories, Bringing Joy to Dementia Patients",
+    "heroText": "Discover the power of reminiscence therapy with personalized memory books, engagement kits, and meaningful connections.",
+    "heroActions": [
+      { "label": "Apply for a Memory Book", "href": "https://docs.google.com/forms/d/e/1FAIpQLSdeXWlEgcQxewdMXjvDiPQQuTYtGcCkM-Bf8GHqfGpdEp5WeQ/viewform", "primary": true },
+      { "label": "Make a Donation", "href": "https://www.gofundme.com/f/bringing-joy-and-remembrance-to-dementia-patients" }
+    ],
+    "sections": [
+      { "title": "Our Mission", "content": "To preserve precious memories and bring joy to dementia patients through personalized memory books, creating meaningful connections between patients, families, and caregivers." },
+      { "title": "Our Vision", "content": "A world where every person affected by dementia experiences dignity, connection, and joy through the power of preserved memories and compassionate care." }
+    ],
+    "highlights": [
+      { "label": "Kits Distributed", "value": "100+" },
+      { "label": "Active Chapters", "value": "2" },
+      { "label": "Lives Impacted", "value": "500+" }
+    ]
+  },
+  "about": {
+    "slug": "about",
+    "title": "About Us",
+    "description": "Learn about Mindful Memories Initiative, our founders, and our mission to support dementia care through memory preservation.",
+    "intro": "Mindful Memories Initiative is a compassionate nonprofit organization dedicated to improving the lives of dementia patients through the power of reminiscence therapy.",
+    "content": "Our flagship program, Pages of the Past, creates personalized memory books filled with photographs, stories, and meaningful moments from each patient's life. These carefully crafted books support reminiscence therapy and help patients reconnect with their memories.",
+    "founders": [
+      { "name": "Disha Somasetty", "title": "Co-Founder", "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBCY0-onCNdoNwEZlEeCBRgPVmj0TOcxwBtGrOCI063sj1nNMqnEnOw1d6k4QeRDJG8hGBuU_siFD-_-ebojKOqrwyNGlEGRWse0itUzOyYm5N_gMmxLajp4qRmiH5aunh8Kf8OdKqDXPO0Xy2ZiMp7BudHcF9fo6LpXvGkHQWaN0CAjuAXsmpLo4Uwqq0uoQWXkaX-9GelafBBAjWzWAmnrIGrdMnPr5_Hh7bZKbJF52-jvfZVPAe8Aj5qw1u-0OcemHa2kVJLeTMt" },
+      { "name": "Anish Senthil", "title": "Co-Founder", "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHFIrazMKH50_uc4d7xt2zqxBn1b4z4uFMWXMDDXKC_w4baRTIly35U_nr6zRVR7GGVP63PW1p1UDY9dYGEruIjntsNGbt6pGGE57cAhrJYh9Vx9MSQbOFUFzWNO8K9rkSxYqvDG1N5HCVbSPWaChZ5oe-24pPGZOTnsvTugISsND0NnLdjlkYmMQck1yNBkmPFEwwBNlN7mpqZtjuKe6_Kf5onssbTLmzrHteNkBEGllwyRdXGeN7RXCYH-756N-keevteVmYeU3_" }
+    ],
+    "quote": "We believe that every person deserves to be remembered and celebrated."
+  },
+  "programs": {
+    "slug": "programs",
+    "title": "Our Programs",
+    "description": "Explore the programs that help dementia patients and families through memory books and cognitive engagement kits.",
+    "intro": "Our impact programs are designed to support emotional wellness, memory engagement, and meaningful connection for dementia patients.",
+    "items": [
+      { "title": "Pages of the Past", "description": "Personalized memory books that preserve cherished life stories, photographs, and meaningful memories." },
+      { "title": "Cognitive Engagement Kits", "description": "Sensory-rich kits designed to reduce anxiety, stimulate memory, and support caregiver engagement." },
+      { "title": "Community Workshops", "description": "Educational workshops that help families, volunteers, and care teams learn how to use reminiscence activities effectively." }
+    ]
+  },
+  "impact": {
+    "slug": "impact",
+    "title": "Our Impact",
+    "description": "See how Mindful Memories Initiative brings measurable care and joy to dementia patients and their families.",
+    "stats": [
+      { "value": "100+", "label": "Kits Distributed" },
+      { "value": "2", "label": "Active Chapters" },
+      { "value": "500+", "label": "Lives Impacted" }
+    ],
+    "stories": [
+      { "quote": "The engagement kits have brought back a sparkle in my father's eyes that we hadn't seen in months.", "author": "Sarah M.", "role": "Family Caregiver" },
+      { "quote": "Implementing Mindful Memories Initiative at our center has revolutionized how we approach personalized care.", "author": "Alex R.", "role": "Care Center Director" }
+    ]
+  },
+  "gallery": {
+    "slug": "gallery",
+    "title": "Gallery",
+    "description": "Photos from our workshops, memory book sessions, and community care moments.",
+    "images": [
+      { "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuA_QbkTcQMeZ_P5AIIpYz05xeol9QJ1LhDxxkOunswux5C0L1Hd8FIjjuXf4tB-mpQPwCFZodALUGc-XwpwGSLaMeGmZlJd1sI82jNqLM-cW0vkDfimjEXt2OWbeunz_KM0Wt2n8H0RAVkTn2FUxbPd5bsPvbvv82NSRPhkAEMcTLuQwBhGOdanGitn14QjC26_ld3YTbMA5GhtJDD5cTHIg3d8bSgJBLkxiC7IfHYF9M8CbGoZM6DqSSU-PKMQZCvTJ8N922yrPdh6", "alt": "Volunteers assembling care kits" },
+      { "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDIyhjB1DxO6kxq3a5Z32TizNuSPq9MR_D3j8QQxggqcVMv3lk7ato2P9e_WVWNv4nfugJkSxR1VqvOPoGalBGgrNB8h53ZHnwLZ12SfqQGjA5sphfGfn0xCw5qjw2ns6gHje3_KWofiIIWvmwGqtnZsD5WSOi8B-lfEjmUQhLnOnchHH9NDtMvVGLHhYCItv5-WMPlMUY9Xnn-7iA8h_cw0fX_ciYUYfjZ6Hnr8FYLq-aTAd2QToeYfKtsvthbTURAQASfbE4CfpKr", "alt": "Founders with seniors" },
+      { "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDZa6d_UXa1KFSQwCuJgque23uErz4uNaT-gt8jU8ZGsyOmnG_fxSGL8Hq1PxPTHZoGiU0djTohmdcaRK0v1ko5ZvmfAC4gSzdo2Ywh7d1K2YdIzGu-AHC2gRNs_nY0M9Ic2JTaWkE_wi0_f5bIEuE1lb7gtXdOwwyH3CCDCePD1faMeGGB4Zxn2AnDAXNPVRo8Axe0kePsm7aTHB8_tpMdPoMooxSH4gK_1Shu3lPKLSz3lySd_GnBH5oSNe05JxvbbA-IWQtorFt4", "alt": "Memory book creation" },
+      { "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJ4Q2InlJtt2m7RQP0AqQPzSqq0gWZmah2lCngf_8QSrUVjItkjiEbfRxJ2P5zdIF5Ic94YDUNsPILcMqskvSK9T6-wK8jywoCcxP9ZcVa1uATgyeGgXXpxEdJl5Tr3FxBLord2URaJ53-SzsgNRyJW172zxM2bLsrHwZ_qjpknZLbL99uLv3hs7PU1vXn5hBH81-n9aGJyZNIQEWbjWpC899AYCrikUoBMS4kjMUKN58vNdYpHAEuyqSB2SmWVW6I-nQPUKfrk-Pg", "alt": "Community outreach event" }
+    ]
+  },
+  "contact": {
+    "slug": "contact",
+    "title": "Contact Us",
+    "description": "Get in touch with Mindful Memories Initiative for questions, volunteer inquiries, or partnership requests.",
+    "intro": "We would love to hear from you. Whether you're a family seeking support, a volunteer, or a donor, your voice matters.",
+    "email": "mindfulmemoriesinitiative@gmail.com",
+    "social": "https://instagram.com/mindfulmemoriesinitiative"
+  }
+}
