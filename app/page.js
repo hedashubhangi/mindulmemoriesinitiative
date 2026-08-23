@@ -94,13 +94,14 @@ export default function Home() {
 
   return (
     <PageShell>
-      <section className="bg-primary text-on-primary overflow-hidden py-[5rem]">
+      <section className="text-on-primary overflow-hidden py-[6.5rem]" style={{ backgroundColor: "#BC2A3D" }}>
         <div className="mx-auto max-w-[1200px] px-gutter flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2 space-y-8">
-            <span className="inline-flex items-center gap-2 text-secondary-fixed-dim font-semibold uppercase tracking-[0.24em]">
-              <span className="material-symbols-outlined">menu_book</span>
-              Capturing Compassion
-            </span>
+            <img
+              src="/logo.jpg"
+              alt="Mindful Memories Initiative"
+              className="h-auto w-[460px] max-w-[92vw] translate-x-3 -translate-y-2"
+            />
             <h1 className="text-headline-xl text-headline-xl leading-tight">
               Preserving Precious Memories, Bringing Joy to Dementia Patients
             </h1>
