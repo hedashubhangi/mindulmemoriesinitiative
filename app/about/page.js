@@ -122,6 +122,10 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <p className="-mt-12 pb-8 text-center text-lg text-on-surface-variant">
+        <span className="font-semibold">Shubhangi Heda</span> — Chief Technology Officer
+      </p>
+
       <section className="bg-secondary text-on-secondary py-[5rem]">
         <div className="mx-auto max-w-[1200px] px-gutter text-center">
           <h2 className="text-4xl font-semibold mb-6">Support Our Mission</h2>

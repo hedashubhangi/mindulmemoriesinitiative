@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
   { href: "/programs", label: "Programs" },
+  { href: "/internship", label: "Internship" },
   { href: "/impact", label: "Our Impact" },
   { href: "/calendar", label: "Calendar" },
   { href: "/gallery", label: "Gallery" },
@@ -18,29 +19,29 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-surface-container-lowest shadow-[0_4px_20px_rgba(146,7,3,0.04)]">
-      <div className="mx-auto flex max-w-[1200px] items-center justify-between px-gutter py-4">
-        <Link href="/" className="font-headline-md text-headline-md font-bold text-primary">
+      <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-6 px-gutter py-4">
+        <Link href="/" className="min-w-0 font-headline-md text-headline-md font-bold leading-tight text-primary">
           Mindful Memories Initiative
         </Link>
 
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden shrink-0 items-center gap-4 xl:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="font-label-md text-label-md text-on-surface-variant transition hover:text-primary"
+              className="whitespace-nowrap font-label-md text-label-md text-on-surface-variant transition hover:text-primary"
             >
               {link.label}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden shrink-0 items-center gap-3 xl:flex">
           <a
             href="https://www.gofundme.com/f/bringing-joy-and-remembrance-to-dementia-patients"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-outline bg-surface px-4 py-2 font-label-md text-label-md text-on-surface transition hover:bg-surface-container-low"
+            className="whitespace-nowrap rounded-full border border-outline bg-surface px-4 py-2 font-label-md text-label-md text-on-surface transition hover:bg-surface-container-low"
           >
             Donate
           </a>
@@ -48,7 +49,7 @@ export default function Header() {
             href="https://docs.google.com/forms/d/e/1FAIpQLScmBLgVRSQ9O9XLAl5M50lO-c1fPf-4IBg13yGlFxyuZkYArA/viewform"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-secondary px-4 py-2 font-label-md text-label-md text-on-secondary transition hover:bg-secondary-fixed-dim hover:text-on-secondary"
+            className="whitespace-nowrap rounded-full bg-secondary px-4 py-2 font-label-md text-label-md text-on-secondary transition hover:bg-secondary-fixed-dim hover:text-on-secondary"
           >
             Get Involved
           </a>
@@ -58,14 +59,14 @@ export default function Header() {
           type="button"
           onClick={() => setMenuOpen((current) => !current)}
           aria-expanded={menuOpen}
-          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-outline bg-surface text-on-surface-variant transition hover:border-primary hover:text-primary md:hidden"
+          className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-outline bg-surface text-on-surface-variant transition hover:border-primary hover:text-primary xl:hidden"
         >
           <span className="material-symbols-outlined">{menuOpen ? "close" : "menu"}</span>
           <span className="sr-only">Toggle navigation</span>
         </button>
       </div>
 
-      <div className={`md:hidden overflow-hidden border-t border-outline-variant bg-surface-container-lowest transition-all duration-300 ${menuOpen ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"}`}>
+      <div className={`xl:hidden overflow-hidden border-t border-outline-variant bg-surface-container-lowest transition-all duration-300 ${menuOpen ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"}`}>
         <div className="px-gutter py-4">
           <div className="space-y-3">
             {navLinks.map((link) => (
