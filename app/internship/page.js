@@ -76,8 +76,8 @@ const steps = [
 ];
 
 const timeline = [
-  { label: "Applications Open", value: "November 1, 2026", icon: "event_available" },
-  { label: "Application Deadline", value: "November 30, 2026", icon: "event_busy" },
+  { label: "Applications Open", value: "December 1, 2026", icon: "event_available" },
+  { label: "Application Deadline", value: "December 30, 2026", icon: "event_busy" },
   { label: "Location", value: "Texas Gulf Coast Region", icon: "location_on" },
   { label: "Program", value: "MMI Youth Internship Program", icon: "school" }
 ];
